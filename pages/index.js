@@ -1,7 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Topnav from '../components/navbar/Topnav'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import Footer from '../components/navbar/Footer'
+import CustomerLikes from '../components/likedcollection/CustomerLikes'
+import Product from '../components/Products/Product'
+import DeliveryOption from '../components/customers/DeliveryOption'
+import { ProductDetails } from '../components/customers/ProductDetails'
+import Rating from '../components/customers/Rating'
 
 export default function Home() {
   return (
@@ -15,11 +21,29 @@ export default function Home() {
 
       <main className={styles.main}>
         <Topnav />
-        Hello
+        <div>
+          <Link href='/' >
+            <a>Home</a>
+          </Link>/
+          <Link href='/' >
+            <a>Clothing</a>
+          </Link>/
+          <Link href='/' >
+            <a>Men Cloting</a>
+          </Link>/
+          <Link href='/' >
+            <a>TShirts</a>
+          </Link>
+        </div>
+        <Product />
+        <DeliveryOption />
+        <ProductDetails />
+        <Rating />
+        <CustomerLikes />
+
       </main>
-
       <footer className={styles.footer}>
-
+        <Footer />
       </footer>
     </div>
   )
