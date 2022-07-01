@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Rating from "./Rating"
 
-export const ProductDetails = () => {
+const ProductDetails = () => {
     return (
         <div className="flex items-start justify-between m-5 p-5 productDetail_box ">
             <div className=" flex flex-col items-start justify-start  productDetail w-full img">
@@ -61,3 +61,4 @@ export const ProductDetails = () => {
         </div >
     )
 }
+export default ProductDetails

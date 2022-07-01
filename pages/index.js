@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Footer from '../components/navbar/Footer'
 import CustomerLikes from '../components/likedcollection/CustomerLikes'
 import Product from '../components/Products/Product'
-import { ProductDetails } from '../components/customers/ProductDetails'
+import ProductDetails from '../components/customers/ProductDetails'
 import NavFoot from '../components/navbar/NavFoot'
 
 export default function Home() {
