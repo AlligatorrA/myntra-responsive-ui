@@ -21,7 +21,7 @@ export default function Home() {
 
       <Topnav />
       <main >
-        <div>
+        <div className='flex items-start justify-start'>
           <Link href='/' >
             <a>Home</a>
           </Link>/
@@ -36,7 +36,6 @@ export default function Home() {
           </Link>
         </div>
         <Product />
-        <DeliveryOption />
         <ProductDetails />
         <Rating />
         <CustomerLikes />

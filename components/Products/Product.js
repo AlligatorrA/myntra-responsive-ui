@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import product1 from "../../assets/ProductOne.jpg";
 import product2 from "../../assets/ProductTwo.jpg";
+import DeliveryOption from "../customers/DeliveryOption";
 
 const Product = () => {
     return (
@@ -37,7 +38,7 @@ const Product = () => {
                         <h3>SELECT SIZE</h3>
                         <Link href='/'><a className=" text-red-400">SIZE CHART </a></Link>
                     </div>
-                    <div className=" p-10 flex">
+                    <div className=" p-1 m-3 flex">
                         <button className=" w-30 h-10 rounded-full p-4 flex items-center hover:bg-red-500 border border-rose-500 mx-4 ">S</button>
                         <button className=" w-30 h-10 rounded-full p-4 flex items-center hover:bg-red-500 border border-rose-500  mx-4">M</button>
                         <button className=" w-30 h-10 rounded-full p-4 flex items-center hover:bg-red-500 border border-rose-500  mx-4">L</button>
@@ -49,6 +50,7 @@ const Product = () => {
                         <button className="bg-transparent hover:bg-rose-500 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"><i className="fa-regular fa-heart mx-3"></i>WISHLIST</button>
                     </div>
                 </div>
+                <DeliveryOption />
             </div>
         </div>
     )
