@@ -55,8 +55,6 @@ body {
   }
 }
 
-
-
-.w-full-20rem {
-  max-width: 30rem;
+.productDetail {
+  width: 50vw;
 }

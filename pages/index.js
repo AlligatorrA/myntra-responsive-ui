@@ -36,8 +36,8 @@ export default function Home() {
           </Link>
         </div>
         <Product />
+        <hr />
         <ProductDetails />
-        <Rating />
         <CustomerLikes />
 
       </main>
