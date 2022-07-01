@@ -26,9 +26,81 @@ body {
   display: flex;
 }
 
+.userDetail {
+  display: flex;
+}
+
+.anti_userDetail {
+  display: none;
+}
+
 .img {
   max-width: 48vw;
   object-fit: contain;
+}
+
+.auto-slider {
+  position: relative;
+  box-sizing: content-box;
+  display: inline-block;
+  padding: 10px 10px 20px;
+  background: #fff;
+  max-width: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  max-height: 120vh;
+
+}
+
+div#slider {
+  overflow: hidden;
+}
+
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 25s sliding ease infinite;
+}
+
+@keyframes sliding {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: -100%;
+  }
+
+  40% {
+    left: -200%;
+  }
+
+  60% {
+    left: -300%;
+  }
+
+  80% {
+    left: -400%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+.productDetail {
+  width: 50vw;
 }
 
 @media screen and (max-width:1100px) {
@@ -53,8 +125,73 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .auto-slider {
+    max-height: 80vh;
+  }
+
 }
 
-.productDetail {
-  width: 50vw;
+@media screen and (max-width:900px) {
+  .productDetail_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .delivery {
+    justify-content: center;
+  }
+
+  .w-half {
+    width: 80%;
+  }
+
+  .productDetail {
+    width: 95vw;
+  }
+
+  .userDetail {
+    display: none;
+  }
+
+  .anti_userDetail {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+
+
+.w-half {
+  width: 40%;
+}
+
+.min-width {
+  min-width: 5rem
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(255, 0, 0);
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(252, 239, 239);
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+  width: 15px;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

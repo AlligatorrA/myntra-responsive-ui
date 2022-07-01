@@ -3,8 +3,8 @@ import Rating from "./Rating"
 
 export const ProductDetails = () => {
     return (
-        <div className="flex items-start justify-between m-5 p-5">
-            <div className=" flex flex-col items-start justify-start border-r-2 productDetail">
+        <div className="flex items-start justify-between m-5 p-5 productDetail_box ">
+            <div className=" flex flex-col items-start justify-start  productDetail w-full img">
                 <h3 className="font-bold text-2xl">PRODUCT DETAILS</h3>
                 <ul className="text-lg  flex flex-col items-start justify-start my-3 text-gray-700">
                     <li>Mint green tshirt for men with applique striped sleeves</li>

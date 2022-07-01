@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const DeliveryOption = () => {
     return (
-        <div className="flex justify-start items-start">
+        <div className="flex justify-start items-start delivery">
             <div className="m-4 p-4 flex items-start flex-col" >
                 <h2 className="font-bold text-2xl my-4">DELIVERY OPTIONS</h2>
 

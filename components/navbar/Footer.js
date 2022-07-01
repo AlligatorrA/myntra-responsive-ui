@@ -1,12 +1,12 @@
 import Link from 'next/link'
 const Footer = () => {
     return (
-        <div>
-            <div className="flex flex-wrap gap-5  flex-col">
+        <div className='bg-gray-200'>
+            <div className="flex flex-wrap gap-5  flex-col border-t-2 border-gray-900 mt-2 ">
                 <h5 className='font-bold m-7'>ONLINE SHOPPING</h5>
                 <div className='flex  justify-around'>
-                    <div className="flex  justify-start">
-                        <ul className="flex  justify-start flex-col items-start">
+                    <div className="flex  justify-start m-4">
+                        <ul className="flex  justify-start flex-col items-start min-width">
                             <li> <Link href='/' >
                                 <a>Men</a>
                             </Link></li>
@@ -31,8 +31,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="">
-                        <h5>USEFUL LINKS</h5>
-                        <ul className="flex  justify-start flex-col items-start">
+                        <h5 className='font-bold'>USEFUL LINKS</h5>
+                        <ul className="flex  justify-start flex-col items-start grid-cols-2">
                             <li><Link href='/' >
                                 <a>Contact Us</a>
                             </Link></li>
@@ -77,12 +77,12 @@ const Footer = () => {
                             </Link></li>
                         </ul>
                     </div>
-                    <div className="">
-                        <h5>EXPERIENCE MYNTRA APP ON MOBILE</h5>
-                    </div>
-                    <div className="flex  justify-start flex-col items-start">
-                        <h5>100% ORIGINAL</h5>
-                        <h5>100% ORIGINAL</h5>
+                    <div>
+                        <h5 className='font-bold'>EXPERIENCE MYNTRA APP ON MOBILE</h5>
+                        <div className="flex  justify-start flex-col items-start">
+                            <h5>100% ORIGINAL</h5>
+                            <h5>100% ORIGINAL</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ const Footer = () => {
             </div>
             <div className=" flex justify-around m-4">
                 <p>In case of any concern, <Link href='/' >
-                    <a>Contact Us</a>
+                    <a className=" text-red-400 text-lg font-bold mt-3">Contact Us</a>
                 </Link></p>
                 <p>© 2022 www.myntra.com. All rights reserved.</p>
             </div>

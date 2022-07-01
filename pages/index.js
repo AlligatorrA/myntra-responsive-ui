@@ -5,9 +5,8 @@ import Link from 'next/link'
 import Footer from '../components/navbar/Footer'
 import CustomerLikes from '../components/likedcollection/CustomerLikes'
 import Product from '../components/Products/Product'
-import DeliveryOption from '../components/customers/DeliveryOption'
 import { ProductDetails } from '../components/customers/ProductDetails'
-import Rating from '../components/customers/Rating'
+import NavFoot from '../components/navbar/NavFoot'
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
 
       <Topnav />
       <main >
-        <div className='flex items-start justify-start'>
+        <div className='flex items-start justify-start m-3'>
           <Link href='/' >
             <a>Home</a>
           </Link>/
@@ -44,6 +43,7 @@ export default function Home() {
       <footer>
         <Footer />
       </footer>
+      <NavFoot />
     </div>
   )
 }
