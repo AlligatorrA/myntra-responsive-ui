@@ -17,7 +17,7 @@ const ProductDetails = () => {
 
                     <li className="font-bold m-4"><b>Size & Fit</b></li>
                     <li>Loose Fit</li>
-                    <li>The model (height 6') is wearing a size M</li>
+                    <li>The model (height 6) is wearing a size M</li>
 
 
                     <li className="font-bold m-4"><b>Material & Care</b></li>
