@@ -3,8 +3,8 @@ const Footer = () => {
     return (
         <div>
             <div className="topRow">
-                <div className="">
-                    <h5>ONLINE SHOPPING</h5>
+                <h5>ONLINE SHOPPING</h5>
+                <div className="flex items-center">
                     <ul>
                         <li> <Link href='/' >
                             <a>Men</a>
