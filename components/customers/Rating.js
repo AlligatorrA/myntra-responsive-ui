@@ -24,7 +24,7 @@ const Rating = () => {
                 <hr />
 
             </div>
-            <div className="">
+            <div >
                 <h4 className="font-bold text-lg m-4">Customer Photos</h4>
                 <picture>
                     <Image
