@@ -30,24 +30,24 @@ export const ProductDetails = () => {
                 <div className=" flex flex-col items-start  justify-start">
                     <h3 className="font-bold mt-3">Specifications</h3>
                     <div className="columns-2 border-b-2 border-rose-500 m-2">
-                        <div className="">
+                        <div>
                             <span>care for me</span>
                         </div>
                         <div className="flex flex-col">
                             <span>Fabric</span>
                             <span>Cotton</span>
                         </div>
-                        <div className="">
+                        <div>
                             <span>care for me</span>
                         </div>
                         <div className=" flex flex-col">
                             <span>Fabric</span>
                             <span>Cotton</span>
                         </div>
-                        <div className="">
+                        <div>
                             <span>care for me</span>
                         </div>
-                        <div className="">
+                        <div>
                             <span>Fabric</span>
                             <span>Cotton</span>
                         </div>
