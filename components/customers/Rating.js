@@ -50,8 +50,8 @@ const Rating = () => {
                     <div className="flex justify-between border-b-2 m-2 p-3">
                         <p>Nikunj Chaudhary | 24 June 2022</p>
                         <div className="flex items-center">
-                            <span><i class="fa-solid fa-thumbs-up mx-5"></i></span>
-                            <span><i class="fa-solid fa-thumbs-down mx-5"></i></span>
+                            <span><i className="fa-solid fa-thumbs-up mx-5"></i></span>
+                            <span><i className="fa-solid fa-thumbs-down mx-5"></i></span>
                         </div>
                     </div>
                 </div>
@@ -63,12 +63,12 @@ const Rating = () => {
                     <div className="flex justify-between border-b-2 m-2 p-3">
                         <p>Nikunj Chaudhary | 24 June 2022</p>
                         <div className="flex items-center">
-                            <span><i class="fa-solid fa-thumbs-up mx-5"></i></span>
-                            <span><i class="fa-solid fa-thumbs-down mx-5"></i></span>
+                            <span><i className="fa-solid fa-thumbs-up mx-5"></i></span>
+                            <span><i className="fa-solid fa-thumbs-down mx-5"></i></span>
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div >
                     <div className="flex items-start justify-start">
                         <span className="bg-green-500 rounded px-2 flex items-center">5<i className="fa-solid fa-star text-green-900"></i></span>
                         <p className="flex items-start justify-start">In size of M the t shirt is too loose Generally i wear L size but this t shirt is bigger than L size</p>
@@ -76,8 +76,8 @@ const Rating = () => {
                     <div className="flex justify-between border-b-2 m-2 p-3">
                         <p>Nikunj Chaudhary | 24 June 2022</p>
                         <div className="flex items-center">
-                            <span><i class="fa-solid fa-thumbs-up mx-5"></i></span>
-                            <span><i class="fa-solid fa-thumbs-down mx-5"></i></span>
+                            <span><i className="fa-solid fa-thumbs-up mx-5"></i></span>
+                            <span><i className="fa-solid fa-thumbs-down mx-5"></i></span>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const Rating = () => {
                 <Link href='/'>
                     <a className=" text-red-400 text-lg font-bold m-3">View all 8 reviews</a>
                 </Link>
-                <div className="">
+                <div >
                     <p>Product Code: <b>16407468</b></p>
                     <p>Seller:  <Link href='/'>
                         <a className=" text-red-400 text-lg font-bold m-3">ELCINCO INC</a>

@@ -30,7 +30,7 @@ const Footer = () => {
                             </Link></li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div >
                         <h5 className='font-bold'>USEFUL LINKS</h5>
                         <ul className="flex  justify-start flex-col items-start grid-cols-2">
                             <li><Link href='/' >

@@ -143,9 +143,6 @@ div#slider figure {
     justify-content: center;
   }
 
-  .w-half {
-    width: 80%;
-  }
 
   .productDetail {
     width: 95vw;
@@ -168,13 +165,10 @@ div#slider figure {
   width: 40%;
 }
 
-.min-width {
-  min-width: 5rem
-}
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(191, 53, 53);
   height: 14px;
 }
 
@@ -184,7 +178,7 @@ div#slider figure {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(170, 46, 46);
   border-radius: 5px;
   width: 15px;
 }

@@ -10,7 +10,7 @@ const Product = () => {
     return (
         <div className="flex top-ui">
             <div className=" m-0.5 p-2 img rounded-lg">
-                <section class="auto-slider">
+                <section className="auto-slider">
                     <div id="slider">
                         <figure>
                             <Image
@@ -28,7 +28,6 @@ const Product = () => {
                                 alt="Camera"
                             />
                         </figure>
-                        <div class="indicator"></div>
                     </div>
                 </section>
 
