@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import pOne from "../../assets/productOne.jpg";
+import pOne from "../../assets/ProductOne.jpg";
 
 const Rating = () => {
     return (

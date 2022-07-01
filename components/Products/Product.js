@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import product1 from "../../assets/ProductOne.jpg";
 import product2 from "../../assets/ProductTwo.jpg";
-import product3 from "../../assets/Product3.webp";
-import product4 from "../../assets/Product4.jpg";
+import product3 from "../../assets/product3.webp";
+import product4 from "../../assets/product4.jpg";
 import DeliveryOption from "../customers/DeliveryOption";
 
 const Product = () => {
