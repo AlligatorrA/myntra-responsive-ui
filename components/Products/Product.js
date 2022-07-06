@@ -1,40 +1,37 @@
-import Image from "next/image"
+
 import Link from "next/link"
 import product1 from "../../assets/ProductOne.jpg";
 import product2 from "../../assets/ProductTwo.jpg";
 import product3 from "../../assets/product3.webp";
 import product4 from "../../assets/product4.jpg";
 import DeliveryOption from "../customers/DeliveryOption";
+import SimpleImageSlider from 'react-simple-image-slider'
+
+const images = [
+    { url: product1 },
+    { url: product2 },
+    { url: product3 },
+    { url: product4 },
+    { url: product3 },
+    { url: product2 },
+    { url: product1 },
+];
 
 const Product = () => {
     return (
         <div className="flex top-ui">
-            <div className=" m-0.5 p-2 img rounded-lg">
-                <section className="auto-slider">
-                    <div id="slider">
-                        <figure>
-                            <Image
-                                src={product1}
-                                alt="Camera"
-                            /><Image
-                                src={product2}
-                                alt="Camera"
-                            /><Image
-                                src={product3}
-                                alt="Camera"
-                            />
-                            <Image
-                                src={product4}
-                                alt="Camera"
-                            />
-                        </figure>
-                    </div>
-                </section>
-
+            <div className="slider_box">
+                <SimpleImageSlider
+                    width='100%'
+                    height={504}
+                    images={images}
+                    showBullets={true}
+                    showNavs={true}
+                />
             </div>
             <div className="m-0.5 p-2">
                 <div className="m-0.5 p-2 text-lg">
-                    <h1 className="text-4xl font-bold italic m-1	">Difference of Opinion</h1>
+                    <h4 className="text-2xl font-bold italic m-1	">Difference of Opinion</h4>
                     <p className="m-4">Men Mint Green Round Neck Drop-Shoulder Sleeves Cotton Loose T-shirt</p>
                     <Link href='/'><a className="p-2 border-solid border-2 border-slate-600 my-2"><b>4.2 <i className="fa-solid fa-star text-green-500"></i></b> | 284 Ratings</a></Link>
                 </div>
